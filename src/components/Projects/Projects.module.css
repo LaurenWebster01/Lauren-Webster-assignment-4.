@@ -1,0 +1,41 @@
+.projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projectCard {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.projectCard h3 {
+    font-size: 1.5rem;
+}
+
+.projectCard p {
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
